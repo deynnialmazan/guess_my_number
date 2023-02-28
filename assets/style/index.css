@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+main {
+    height: 100vh;
+    background-color: #0659df;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3 {
+    color: #fff;
+}
+
+.number {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    font-size: 60px;
+    color:#0659df;
+    font-weight: 400px; 
+    background-color: #e3ebf8;
+    margin-top: 20px;
+}
+
+.guess {
+    margin-top: 0px;
+    width: 120px;
+    height: 48px;
+    text-align: center;
+    background-color: #fafa5bda;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    margin-top: 20px;
+}
+
+.guess:hover {
+    background-color: #f8b654;
+    color: #fff;
+}
+
+p {
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(29, 26, 26, 0.3);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
