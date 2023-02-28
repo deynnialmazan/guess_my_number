@@ -11,7 +11,8 @@ function guessMyNumber (input) {
         return 'My number is smaller';
     } else if (input < myNumber) {
         return 'My number is bigger';
-    } return 'You guessed. Congratulations!';
+    } else 
+    return 'You guessed. Congratulations!'
 };
 
 
@@ -25,8 +26,6 @@ guessBtn.addEventListener('click', function() {
     total_guesses.innerText = 'Guesses: ' + `${times}`;
 }
 );
-
-
 
 playAgain.addEventListener('click', function() {
     times = 0; 
