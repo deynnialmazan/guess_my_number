@@ -29,6 +29,7 @@ guessBtn.addEventListener('click', function() {
 
 playAgain.addEventListener('click', function() {
     times = 0; 
+    myNumber = Math.floor((Math.random() * 50) + 1);
     number.value = "";
     output.innerText = "";
     total_guesses.innerText = "";;
