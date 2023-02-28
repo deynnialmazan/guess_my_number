@@ -64,7 +64,7 @@ h3 {
     color: #fff;
 }
 
-p {
+.output {
     border: none;
     text-align: center;
     height: 50px;
@@ -74,6 +74,11 @@ p {
     padding: 10px;
     margin-top: 20px;
     color: #fff;
+}
 
+.total_guesses {
+    color: #fff;
+    height: 50px;
+    width: 100px;
 }
 
